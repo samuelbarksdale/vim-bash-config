@@ -1,0 +1,10 @@
+  1 alias strava='cd Desktop/Strava'
+  2 alias features='cd Desktop/Strava/features'
+  3 alias c='cd Desktop/Strava/features/features-client/src/main/scala/com/strava/features/client'
+  4 alias t='cd Desktop/Strava/features/features-client/src/test/scala/com/strava/features/client'
+  5 eval "$(rbenv init -)"
+  6 #export PS1="\w $: "
+  7 export PS1="\[\033[36m\]\u\[\033[m\]\[\033[33;1m\]\w\[\033[m\]\$ "
+  8 export CLICOLOR=1
+  9 export LSCOLORS=ExFxBxDxCxegedabagacad
+ 10 alias ls='ls -GFh'
